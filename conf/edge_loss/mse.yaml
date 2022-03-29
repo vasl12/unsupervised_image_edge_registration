@@ -1,0 +1,5 @@
+sim_loss: mse
+sim_weight: 0.3
+
+reg_loss: l2reg_loss
+reg_weight: 0.000

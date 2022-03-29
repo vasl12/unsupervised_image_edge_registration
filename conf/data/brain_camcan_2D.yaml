@@ -1,0 +1,15 @@
+name: brain_camcan_2D
+ndim: 2
+
+batch_size: 16
+num_workers: 8
+shuffle: True
+
+modality: t1t2
+crop_size: [192, 192]
+patch_w: 8
+patch_h: 8
+
+train_path: /home/pti/Documents/datasets/camcan_80_10_10/train
+val_path: /home/pti/Documents/datasets/camcan_80_10_10/val
+atlas_path:

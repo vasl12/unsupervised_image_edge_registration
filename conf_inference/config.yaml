@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - data: brain_camcan_2D
+  - model: dl
+
+metric_groups: ["seg_metrics", "disp_metrics", "image_metrics"]
+analyse: True
+gpu:

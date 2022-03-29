@@ -1,0 +1,6 @@
+sim_loss: ngf
+sim_weight: 10.0
+window_size: 7
+
+reg_loss: l2reg_loss
+reg_weight: 1.0

@@ -1,0 +1,5 @@
+type: bspline_net
+config:
+    enc_channels: [16, 32, 32, 32, 32]
+    dec_channels: [32, 32, 32, 32]
+    resize_channels: [32, 16]

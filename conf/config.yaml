@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - data: brain_camcan_2D
+  - network: bspline_net
+  - transformation: bspline
+  - loss: nmi
+  - edge_loss: mse
+  - training: training
+
+meta:
+  gpu: 0
+  use_edges: True
+  ml_lvls: 1
+  metric_groups: ["seg_metrics", "disp_metrics", "image_metrics", 'edge_metrics']
+  hparam_metrics: ["mean_dice", "loss", "loss_sim", "loss_edges", "folding_ratio", "mag_det_jac_det", "rmse"]

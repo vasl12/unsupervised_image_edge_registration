@@ -1,0 +1,10 @@
+type: 'brain_camcan_2D'
+dataset:
+  data_dir_path: /home/pti/Documents/datasets/camcan_80_10_10/test
+  modality: t1t2
+  crop_size: [192, 192]
+  evaluate: True
+
+dataloader:
+  batch_size: 1
+  num_workers: 2

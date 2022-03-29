@@ -1,0 +1,13 @@
+name: brain_camcan
+ndim: 3
+
+batch_size: 1
+num_workers: 48
+shuffle: True
+
+modality: t1t2
+crop_size: [176, 192, 176]
+
+train_path: /home/pti/Documents/datasets/camcan_malpem/train
+val_path: /home/pti/Documents/datasets/camcan_malpem/val
+atlas_path:
